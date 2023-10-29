@@ -1,122 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Portfolio website</title>
+	<title>XYZ Corporation</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styleindex.css">
 </head>
-<style>
-    body{
-       
-        background-color:black;
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-    }
-.p1,.p2{
-font-size:3vw;
-font-weight: bolder;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-align: center;
-}
-h1{
-font-size:3vw;
-font-weight: bolder;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-img,.a{
-    border-radius: 30px;
-    animation-name: image;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 500px;
-    margin-top: 5px;
-    
-}
-@keyframes image{
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, 30px); }   
-}
-.box{
-    
-    height:50px;
-    width: 180px;
-    border: 4px solid;
-    border-radius: 20px;
-    background-color:darkgreen ;
-    font-weight: bolder;
-    font-size: xx-large;
-    color: aliceblue;
-    
+<body>
+	<header>
+		<nav>
+			<h1>XYZ Corp.</h1>
+			<ul id="navli">
+				<li><a class="homered" href="index.html">HOME</a></li>
+				<li><a class="homeblack" href="#">ABOUT US</a></li>
+				<li><a class="homeblack" href="contact.html">CONTACT</a></li>
+				<li><a class="homeblack" href="elogin.html">LOG IN</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="divider"></div>
+	<div id="divimg">
+		
+	</div>
 
-}
-.ee{
-font-size: x-large;
-font-family: cursive;
-}
-video{
-height: 400px;
-}
-.a{
-height: 50px;
-width: 500px;
-text-align: center;
-font-size: x-large;
-font-family: cursive;
-font-weight: bolder;
-background-color: green;
-color: black;
-margin-left: 500px;
-}
-.y{
-    color: aliceblue;
-    font-size: xx-large;
-    font-family: cursive;
-    /* margin-left: auto; */
-   
-}
-.l{
-color: aliceblue;
-margin: auto;
-}
-*{
-color: aliceblue;
-}
-.skills{
-margin: auto;
-font-size: xx-large;
-font-weight: bolder;
-font-style: italic;
-}
-ol{
-font-size: x-large;
-font-style: italic;
-}
+	
+	<img src="hero-banner.png" style="float: left; margin-right: 100px; margin-top: 35px; margin-left: 70px">
+	
 
-</style>
-<body> <br> <br>
-    <div>
-    <img src="https://media.licdn.com/dms/image/D5603AQHaJ4OoguAoJA/profile-displayphoto-shrink_800_800/0/1688395997332?e=2147483647&v=beta&t=0dKUq3bHmlfXQquAkyC8lTjdPOlW6D3bE7re4UuO22Y" height="300" width="290">
-    <pre class="p1">RAJARSHI SINHA <br>DESIGNATION-Student and Intern</pre><br><br><br><br><br>
-    <div class="box"><i> ABOUT ME </i></div><br>
-  <pre class="ee"> I am a very cool person who alaways beleives in simplicity and honesty. I belong to a middle class nuclear family with my parents.<br><br> From my childhood, I have been reared up by my grandparents who extremely  took care of me and tried to fulfill all my necessary demands. <br><br> My only ambition is to fulfill expections of my grandparents and to support my parents in all aspects. As a person I beleive in honesty.<br><br> I am a self-motivated and self-driven person and alaways enjoy to new learn new things everyday. I am also, a bit shy and emotional person <br><br> who I am trying to regulate gradually as day progresses.<br>  </pre>
-<video src="video.mp4" controls title="My short introduction video" ></video> <br><br><br>
-<p class="skills">SKILLS <br>
-    <ol><li>Programming languages including C, Java and Basics of Python programming</li>
-    <li>DBMS and SQL</li>
-    <li>Data Structure, Networking and Operating System</li>
-    <li>Front end Web development using HTML and CSS</li>
-    <li>Basics of PHP to handle backend logic</li></ol></p>
-<a href="CV_Rajarshi Sinha.pdf" download><button class="a"> <i> Click here to download my resume</i>
-</a><br><br>
+	<div style="margin-top: 175px">
+		
+		<h1 style="font-family: 'Lobster', cursive; font-weight: 200; font-size: 50px; margin-top: 100px; text-align: center;">Welcome to XYZ Corp.</h1>
+		<p style="font-family: 'Montserrat', sans-serif; font-size: 30px ; text-align: center;">Your One Stop Soloution</p>
+	</div>
+		
 
-
-<p class="l" >LinkedIn Profile-https://www.linkedin.com/in/rajarshi-sinha-89821423b</p><br>
-<marquee><pre class="y">THANK YOU FOR VISTING MY PORTFOLIO WEBSITE</pre></marquee>
-</div>
+	
 </body>
 </html>
